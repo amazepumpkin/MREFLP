@@ -27,8 +27,8 @@ mal test results (f) and time (t), and the last columns summarize LMLS’s
  time limit. The best results are emphasized in bold and the optimal results
  are marked with “*”.
  Tables A.1- A.16 show that LMLS outperforms the reference algorithms in
- all instances, securing 162 new upper bounds and 410 equal results (including
- 289 known optima). Furthermore, LMLS achieves 172 better results and 400
+ all instances, securing 165 new upper bounds and 407 equal results (including
+ 289 known optima). Furthermore, LMLS achieves 175 better results and 397
  equal results compared to GRASP.
 
  Table A.1
