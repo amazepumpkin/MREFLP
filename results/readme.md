@@ -13,11 +13,11 @@ stances, with similar structures: instance names and best known values (BKV )
  in columns 7-8, and the best results (fbest), average results (favg), average time
  (tavg) to reach the best results of LMLS relaxed (relaxed test with 10 runs) in
  the remaining columns.
- Tables A.13- A.16 show the comparative results of re-ILP, re-GRASP and
+ Tables A.13- A.16 show the comparative results of re-ILP, GRASP and
  LMLS on the 20 real-world benchmark instances. The first column lists in
 stance names, while columns 2-3 show the re-ILP’s results (f) and time (t
- in seconds). Columns 4-5 show re-GRASP’s normal test results (f) and time
- (t in seconds) and columns 6-8 present re-GRASP’s relaxed test outcomes:
+ in seconds). Columns 4-5 show GRASP’s normal test results (f) and time
+ (t in seconds) and columns 6-8 present GRASP’s relaxed test outcomes:
  the best results (fbest), the average results (favg), and the average time (tavg
  in seconds) over 10 independent runs. Columns 9-10 report the LMLS’s nor
 mal test results (f) and time (t), and the last columns summarize LMLS’s
@@ -29,7 +29,7 @@ mal test results (f) and time (t), and the last columns summarize LMLS’s
  Tables A.1- A.16 show that LMLS outperforms the reference algorithms in
  all instances, securing 162 new upper bounds and 410 equal results (including
  289 known optima). Furthermore, LMLS achieves 172 better results and 400
- equal results compared to GRASP (re-GRASP).
+ equal results compared to GRASP.
 
  Table A.1
  Comparison between LMLS (under normal test with one run), reference algorithms
@@ -119,26 +119,26 @@ mal test results (f) and time (t), and the last columns summarize LMLS’s
  Comparison between LMLS (under normal test with one run), reference algorithms
  (under normal test with one run) and LMLS relaxed (under relaxed test with 10
  runs) on Real-World instances with r = 2
- Note: The results of re-GRASP and re-ILP are obtained by re-implement the algorithm on our computer
+ Note: The results of re-ILP are obtained by re-implement the algorithm on our computer
  since their codes are unavailable and have not been applied on these instances.
 
  Table A.14
  Comparison between LMLS (under normal test with one run), reference algorithms
  (under normal test with one run) and LMLS relaxed (under relaxed test with 10
  runs) on Real-World instances with r = 3
- Note: The results of re-GRASP and re-ILP are obtained by re-implement the algorithm on our computer
+ Note: The results of re-ILP are obtained by re-implement the algorithm on our computer
  since their codes are unavailable and have not been applied on these instances.
 
  Table A.15
  Comparison between LMLS (under normal test with one run), reference algorithms
  (under normal test with one run) and LMLS relaxed (under relaxed test with 10
  runs) on Real-World instances with r = 4
- Note: The results of re-GRASP and re-ILP are obtained by re-implement the algorithm on our computer
+ Note: The results of re-ILP are obtained by re-implement the algorithm on our computer
  since their codes are unavailable and have not been applied on these instances.
 
  Table A.16
  Comparison between LMLS (under normal test with one run), reference algorithms
  (under normal test with one run) and LMLS relaxed (under relaxed test with 10
  runs) on Real-World instances with r = 5
- Note: The results of re-GRASP and re-ILP are obtained by re-implement the algorithm on our computer
+ Note: The results of re-ILP are obtained by re-implement the algorithm on our computer
  since their codes are unavailable and have not been applied on these instances.
